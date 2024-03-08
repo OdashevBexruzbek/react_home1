@@ -1,0 +1,130 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+  
+.container {
+    margin: 0 auto;
+    max-width: 1128px;
+    width: 100%;
+ }
+  
+.top--header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top--header .logo img{
+    width: 120px;
+    cursor: pointer;
+}
+ul {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+}
+.nav a{
+    font-weight: 500;
+    font-size: 16.4px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #022A1E;
+}
+.nav a:hover {
+    color: #045c42c5;
+}
+
+.top--header .demo a{
+    font-weight: 500;
+    font-size: 16.4px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #022A1E;
+    padding: 8px 10px;
+    border: 1px solid rgb(245, 245, 245);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.top--header .demo a:hover {
+    border: 1px solid #022A1E;
+    border-radius: 10px;
+}
+
+button {
+    width: 167px;
+    height: 38px;
+    border-radius: 100px;
+    border: 1px solid #022A1E;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    width: 167px;
+    height: 38px;
+    border-radius: 100px;
+    border: 1px;
+    background-color: #022A1E;
+    color: #fff;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #022A1E;
+    border-radius: 12px;
+}
+
+.hero .left {
+    margin-left: 76px;
+    margin-top: 150px;
+}
+
+.hero .left h1{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 50.4px;
+    color: white;
+}
+
+.left p {
+    width: 485px;
+    font-weight:400;
+    font-size:16px;
+    line-height:20.8px;
+    color: white;
+}
+
+.left img {
+    width: 300px;
+    height: 66px;
+    margin-top: 14px;
+    margin-bottom: 100px;
+}
+
+.leaders {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.leaders p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25.4px;
+    color: #022A1E;
+}
+
+.lead-pic {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lead-pic img {
+    cursor: pointer;
+    height: 40px;
+}
